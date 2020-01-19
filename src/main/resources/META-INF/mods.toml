@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+[[mods]]
+modId="adlib"
+version="${file.jarVersion}"
+displayName="ADLib"
+authors="AlasDiablo"
+description='''
+A minecraft libary for AlasDiablo's Mods
+'''
+[[dependencies.adlib]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.adlib]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
