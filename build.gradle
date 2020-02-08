@@ -11,12 +11,12 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-version = 'bate-1.0'
+version = 'beta-1.0'
 group = 'fr.alasdiablo.adlib'
 archivesBaseName = 'ADLib'
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 minecraft {
-    mappings channel: 'snapshot', version: '20200118-1.14.3'
+    mappings channel: 'snapshot', version: '20200208-1.15.1'
     runs {
         client {
             workingDirectory project.file('run')
@@ -52,7 +52,7 @@ minecraft {
     }
 }
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.14.4-28.1.115'
+    minecraft 'net.minecraftforge:forge:1.15.2-31.1.0'
 }
 
 jar {
